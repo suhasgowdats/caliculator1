@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+  <body>
+      <h1 style="padding-left: 100px;">Simple Caliculator</h1>
+      <div class="main-container">
+       <table>
+           <tr>
+               <thead>
+                   <td colspan="4" ><p class="display" ></p></td>
+               </thead>
+           </tr>
+           <tbody>
+               <tr>
+                   <td colspan="2"><button class="btnac" onclick="empt()">AC</button></td>
+                   <td><button class="btndelete"><i class="material-icons" onclick="del()">backspace</i></button></td>
+                   <td><button onclick="div()">÷</button></td>
+               </tr>
+               <tr>
+                   <td><button onclick="one()">1</button></td>
+                   <td><button onclick="two()">2</button></td>
+                   <td><button onclick="three()">3</button></td>
+                   <td><button onclick="mult()">x</button></td>
+               </tr>
+               <tr>
+                <td><button onclick="four()">4</button></td>
+                <td><button onclick="five()">5</button></td>
+                <td><button onclick="six()">6</button></td>
+                <td><button onclick="add()">+</button></td>
+               </tr>
+               <tr>
+                <td><button onclick="seven()">7</button></td>
+                <td><button onclick="eight()">8</button></td>
+                <td><button onclick="nine()">9</button></td>
+                <td><button onclick="sub()">-</button></td>
+               </tr>
+               <tr>
+                <td><button onclick="desi()">.</button></td>
+                <td><button onclick="zero()">0</button></td>
+                <td colspan="2" onclick="equal()"><button>=</button></td>
+               </tr>
+           </tbody>
+       </table>
+      </div>
+      <script src="index.js"></script>
+  </body>
+</html>
